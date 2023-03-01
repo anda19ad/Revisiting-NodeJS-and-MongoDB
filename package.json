@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "revisiting-nodejs-and-mongodb",
+  "description": "Some wrap up on basic coding stuff with JS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anda19ad/Revisiting-NodeJS-and-MongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anda19ad/Revisiting-NodeJS-and-MongoDB/issues"
+  },
+  "homepage": "https://github.com/anda19ad/Revisiting-NodeJS-and-MongoDB#readme"
+}
