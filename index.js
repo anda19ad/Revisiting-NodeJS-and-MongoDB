@@ -1,13 +1,13 @@
 const express = require('express') // requiring the express module
 const app = express()
 const path = require('path')
+app.use(express.staticx('public'))
 
 //Network stuff
 const port = 3000
-const message = 'listening on '+ port
+const message = 'listening on http://localhost:'+ port
 
-//Getting the html files
-
+//The different sites on the page
 app.listen(port,()=>{
     console.log(message)
 })
@@ -26,6 +26,7 @@ app.get('/contact',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.sendFile(path.resolve(__dirname,'about.html'))
 })
+
 // the not found page
 
 /*
